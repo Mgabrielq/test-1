@@ -1,4 +1,4 @@
-const express = require('express')
+onst express = require('express')
 var AWS = require("aws-sdk");
 const path = require('path')
 const app = express()
@@ -19,6 +19,12 @@ const bible = {
         { title: "Leviticus" },
         { title: "Numbers" },
         { title: "Deuteronomy" },
+        { title: "Josue" },
+        { title: "Juises" },
+        { title: "Rute" },
+        { title: "1 Samuel" },
+        { title: "2 Samuel" },
+       
     ]
 };
 
